@@ -96,7 +96,7 @@ body {
         .button-link {
             color: #FFFFFF;
             text-decoration: none;
-            border: 1px;
+            border-width: 1px;
             border-color: #FFFFFF;
             background-color: transparent;
             cursor: pointer;

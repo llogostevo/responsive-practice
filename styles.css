@@ -50,6 +50,9 @@ body {
     color: #000000;
 }
 
+.page-content-wrapper {
+    display: flex;
+}
 .button-link {
     color: #FFFFFF;
     text-decoration: none;

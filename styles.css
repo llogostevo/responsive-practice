@@ -98,6 +98,7 @@ body {
             text-decoration: none;
             border-width: 1px;
             border-color: #FFFFFF;
+            border-style:solid;
             background-color: transparent;
             cursor: pointer;
             padding-left: 20px;

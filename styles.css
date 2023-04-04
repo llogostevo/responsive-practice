@@ -9,10 +9,25 @@ font-family: "Libre Caslon Display", serif;
 
 /* 
 ##########################################################
-    Site Wide CSS
+    Colour Swatch
 ##########################################################
 
+Background - white #000000;
+Font Color - black #FFFFFF;
+Read More Link - hex (shade of orange): #D9852C;
+Blog Date - hex (shade of grey) #B7B7B7;
+
 */
+
+
+
+/* 
+##########################################################
+CSS STYLING 
+##########################################################
+*/
+
+/* Site Wide Styling */
 body {
     background-color: #FFFFFF;
     /* default for all text apart from headings */
@@ -20,15 +35,12 @@ body {
 }
 
 
-
-/* 
-##########################################################
-    Mobile View
-##########################################################
-
-*/
+/* Mobile View - Default Styles */  
 @media screen and (max-width: 576px) {
-    body {
-        background-color: green;
+    
+    .nav h1 {
+        font-weight: 900;
+        text-transform: capitalize;
     }
+
   }

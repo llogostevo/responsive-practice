@@ -52,6 +52,9 @@ body {
 
 .page-content-wrapper {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
 .button-link {
     color: #FFFFFF;

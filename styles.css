@@ -12,8 +12,8 @@ font-family: "Libre Caslon Display", serif;
     Colour Swatch
 ##########################################################
 
-Background - white #000000;
-Font Color - black #FFFFFF;
+Background - white #FFFFFF;
+Font Color - black #000000;
 Read More Link - hex (shade of orange): #D9852C;
 Blog Date - hex (shade of grey) #B7B7B7;
 
@@ -35,6 +35,7 @@ body {
     font-size: 16px;
     padding: 0px;
     margin:0px;
+    color: #000000;
 }
 
 /* HERO STYLING */
@@ -73,12 +74,25 @@ body {
 
      /* HERO DETAILS CSS STYLE */
         
+        #hero-tag-rectangle-decoration {
+            width: 5.625rem;
+            height: 0.938rem;
+            background-color: #FFFFFF;
+        
+        }
         .hero-tag {
             font-family: "Libre Caslon Display", serif;
             font-weight: 400;
             font-size: 3.125rem;
             color: #FFFFFF;
         }
+
+        .hero-text {
+            font-weight: 500;
+            font-size: 1.125rem;
+            color: #FFFFFF;
+        }
+
                 /* Small devices (mobile/tablets) */
                 @media screen and (min-width: 576px) and (max-width: 768px) {
                     .hero-tag {

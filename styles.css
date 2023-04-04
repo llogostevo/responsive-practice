@@ -129,7 +129,7 @@ body {
             
                  */
                 /* Medium devices (tablets/laptops) */
-                @media screen and (min-width: 768px) {
+                @media screen and (min-width: 768px)  {
                     #burger-menu {
                         display: None;
                  
@@ -178,13 +178,20 @@ body {
      }
 
         /*  Other devices (tablets and desktops) */
-        @media screen and (min-width: 576px) {
+        @media screen and (min-width: 576px) and (max-width: 992px) {
             .hero-details-wrapper {
                 margin-left: 72px;
                 margin-right: 72px;
              }
     }
 
+    /*  Other devices (tablets and desktops) */
+    @media screen and (min-width: 993px) {
+        .hero-details-wrapper {
+            margin-left: 72px;
+            margin-right: 620px;
+         }
+}
 
         #hero-tag-rectangle-decoration {
             width: 90px;

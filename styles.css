@@ -321,6 +321,16 @@ body {
 
 
     
+    /* Small devices (mobile/tablets) */
+    @media screen and (min-width: 768px) {
+        #blog-wrapper .card-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+    }
+
     
 
 /* 

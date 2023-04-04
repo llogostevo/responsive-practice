@@ -63,6 +63,7 @@ body {
 
         #burger-menu {
              margin-right: 40px;
+             margin-left: auto;
              flex-grow:0;
         }
 

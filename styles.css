@@ -40,6 +40,9 @@ body {
     text-transform: uppercase;
 }
 
+.hero h1{
+    color:#FFFFFF;
+}
 /* Burger Icon */
 .burger-line{
     padding:0px;

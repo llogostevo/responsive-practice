@@ -63,9 +63,9 @@ body {
 
         }
 
-        #burger-menu {
-             align-self: auto
-        }
+        /* #burger-menu {
+             align-self: auto;
+        } */
 
         .hero h1{
             color:#FFFFFF;

@@ -53,7 +53,7 @@ body {
 .button-link {
     color: #FFFFFF;
     text-decoration: none;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #FFFFFF;
     border-style:solid;
     background-color: transparent;
@@ -62,7 +62,7 @@ body {
     padding-right: 28px;
     padding-top: 9px;
     padding-bottom: 9px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .button-link:hover {

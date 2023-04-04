@@ -48,19 +48,21 @@ body {
     .navigation-header-wrapper {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     /* NAVIGATION HEADER CSS STYLE */
         .navigation-header-wrapper h1 {
             font-weight: 900;
             text-transform: uppercase;
-            align-self: left;
+            align-self: flex-start;
         }
 
         #burger-menu {
-            align-self: right;
+            align-self: flex-end;
         }
-        
+
         .hero h1{
             color:#FFFFFF;
             font-size: 1.875rem;

@@ -47,7 +47,7 @@ body {
     /* NAVIGATION LAYOUT */
     .navigation-header-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         flex-wrap: wrap-reverse;
         justify-content: flex-end;
     }

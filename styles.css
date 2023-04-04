@@ -80,11 +80,29 @@ body {
              flex-grow:0;
              cursor: pointer;
         }
+
+        /* Hide navigation links in mobile view */
+        nav {
+            display: None;
+        }
+
+                /* SHOW FULL NAV */
                 /* Medium devices (tablets/laptops) */
                 @media screen and (min-width: 768px) {
                     #burger-menu {
                         display: None;
-                   }
+                 
+                    }
+                    nav {
+                        display: block;
+                        flex-grow: 7;
+                        margin-left: auto;
+                    }
+
+                    nav ul {
+                        display: flex;
+                    }
+
                 }
 
         .burger-line{
@@ -97,11 +115,7 @@ body {
             margin: 4px;
         }
 
-        /* Hide navigation links in mobile view */
-        nav ul {
-            display: None;
-        }
-
+        
         /* END NAV STYLING */
 
         

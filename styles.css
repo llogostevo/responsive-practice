@@ -54,6 +54,7 @@ body {
 
 
     /* NAVIGATION HEADER CSS STYLE */
+        /* Wrapper for Navigation Header */
         .navigation-header-wrapper h1 {
             font-weight: 900;
             text-transform: uppercase;
@@ -62,22 +63,30 @@ body {
             padding: 0;
         }
 
+        /* Nav Heading - Website Heading */
+
         .navigation-header-wrapper h1 a{
             text-decoration: none;
             color: #FFFFFF;
+            font-size: 1.875rem;
         }
 
+        /* NAVIGATION */
+        
+        /* Burger Icon */
         #burger-menu {
              margin-right: 40px;
              margin-left: auto;
              flex-grow:0;
+             cursor: pointer;
         }
+                /* Medium devices (tablets/laptops) */
+                @media screen and (min-width: 768px) {
+                    #burger-menu {
+                        display: None;
+                   }
+                }
 
-        .hero h1{
-            color:#FFFFFF;
-            font-size: 1.875rem;
-        }
-        /* Burger Icon */
         .burger-line{
             padding:0px;
             border: 1px;
@@ -92,6 +101,11 @@ body {
         nav ul {
             display: None;
         }
+
+        /* END NAV STYLING */
+
+        
+        
     /* ********************************** */
 
 

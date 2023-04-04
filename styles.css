@@ -40,11 +40,20 @@ body {
     text-transform: uppercase;
 }
 
+/* Burger Icon */
+#burger-top{
+    padding:0px;
+    height: 3px;
+    width: 26px;
+    background-color: #FFFFFF;
+}
+
+/* Hide navigation links in mobile view */
 nav ul {
     display: None;
 }
 
-/* Burger Icon */
+
 
  /* Small devices (mobile/tablets) */
  @media screen and (min-width: 576px) and (max-width: 768px) {

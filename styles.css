@@ -288,12 +288,23 @@ body {
         justify-content: space-around;
     }
 
+    .card {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card image {
+        align-self: stretch;
+    }
+
     .card-date {
         font-size: 0.813rem;
         font-weight: 500;
         line-height: 1rem;
         color:#B7B7B7;
-
+        align-self: flex-start;
+        
     }
     .card-link {
         color: #D9852C;
@@ -301,11 +312,14 @@ body {
         font-weight: 500;
         line-height: 1.125rem;
         text-decoration: none;
+        align-self: flex-end;
     }
 
     .card-link:hover {
         text-decoration: underline;
     }
+
+
     
     
 

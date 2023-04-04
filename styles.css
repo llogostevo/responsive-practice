@@ -53,6 +53,11 @@ nav ul {
     display: None;
 }
 
+.hero {
+    height: 1024px;
+    background-image: url("images/Background.png");
+}
+
 
 
  /* Small devices (mobile/tablets) */

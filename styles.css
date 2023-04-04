@@ -34,39 +34,48 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-/* Nav Header */
-.navHead-wrapper h1 {
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.hero h1{
-    color:#FFFFFF;
-}
-/* Burger Icon */
-.burger-line{
-    padding:0px;
-    border: 1px;
-    border-radius: 25px;
-    height: 4px;
-    width: 35px;
-    background-color: #FFFFFF;
-    margin: 4px;
-}
-
-
-
-/* Hide navigation links in mobile view */
-nav ul {
-    display: None;
-}
-
+/* HERO STYLING */
 .hero {
     height: 1024px;
     background-image: url("images/Background.png");
 }
 
+    /* NAVIGATION HEADER CSS STYLE */
+        .navigation-header-wrapper h1 {
+            font-weight: 900;
+            text-transform: uppercase;
+        }
 
+        .hero h1{
+            color:#FFFFFF;
+        }
+        /* Burger Icon */
+        .burger-line{
+            padding:0px;
+            border: 1px;
+            border-radius: 25px;
+            height: 4px;
+            width: 35px;
+            background-color: #FFFFFF;
+            margin: 4px;
+        }
+
+        /* Hide navigation links in mobile view */
+        nav ul {
+            display: None;
+        }
+    /* ********************************** */
+
+
+     /* HERO DETAILS CSS STYLE */
+        
+        #hero-tag {
+            font-family: "Libre Caslon Display", serif;
+            font-weight: 400;
+            font-size: 3.125rem;
+        }
+
+    /* ********************************** */
 
  /* Small devices (mobile/tablets) */
  @media screen and (min-width: 576px) and (max-width: 768px) {

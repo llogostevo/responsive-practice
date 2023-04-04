@@ -178,18 +178,24 @@ body {
      }
 
             /*  Other devices (tablets) */
-            @media screen and (min-width: 576px) and (max-width: 992px) {
+            @media screen and (min-width: 576px) and (max-width: 768px) {
                 .hero-details-wrapper {
                     margin-left: 72px;
                     margin-right: 72px;
                 }
         }
 
+        /* Medium devices (tablets/laptops) */
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            .hero-details-wrapper {
+                margin-left: 72px;
+                margin-right: 400px;
+            }
+
+        }
+
         /* Large devices (laptops/desktops) */
         @media screen and (min-width: 992px) and (max-width: 1200px) {
-            hero-tag {
-                font-size: 4.375rem;
-            }
 
             .hero-details-wrapper {
                 margin-left: 72px;

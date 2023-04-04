@@ -32,6 +32,7 @@ body {
     background-color: #FFFFFF;
     /* default for all text apart from headings */
     font-family: "Inter", sans-serif;
+    font-size: 16px;
 }
 
 /* HERO STYLING */
@@ -73,6 +74,7 @@ body {
             font-family: "Libre Caslon Display", serif;
             font-weight: 400;
             font-size: 3.125rem;
+            color: #FFFFFF;
         }
 
     /* ********************************** */
@@ -82,6 +84,9 @@ body {
     /* TESTING PURPOSES */ 
     body {
         background-color: yellow;
+        
+    }
+
     }
 
 }

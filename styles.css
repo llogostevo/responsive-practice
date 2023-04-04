@@ -93,6 +93,25 @@ body {
             color: #FFFFFF;
         }
 
+        .button-link {
+            color: #FFFFFF;
+            text-decoration: none;
+            border: #FFFFFF;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .button-link:hover {
+            color: #000000;
+            text-decoration: none;
+            background-color: #FFFFFF;
+
+        }
+
+
+
                 /* Small devices (mobile/tablets) */
                 @media screen and (min-width: 576px) and (max-width: 768px) {
                     .hero-tag {

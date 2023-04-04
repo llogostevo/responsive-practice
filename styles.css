@@ -41,7 +41,7 @@ body {
 }
 
 /* Burger Icon */
-#burger-line{
+.burger-line{
     padding:0px;
     border: 1px;
     border-radius: 10%;

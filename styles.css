@@ -301,7 +301,7 @@ body {
     }
 
     .card image {
-        align-self: stretch;
+        /* align-self: stretch; */
     }
 
     .card-date {

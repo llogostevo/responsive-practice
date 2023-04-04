@@ -59,6 +59,10 @@ body {
             text-transform: uppercase;
             flex-grow: 1;
             margin: 32px;
+            padding: 0;
+            text-decoration: none;
+            color: #FFFFFF;
+            cursor: pointer;
         }
 
         #burger-menu {

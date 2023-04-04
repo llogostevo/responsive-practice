@@ -33,6 +33,8 @@ body {
     /* default for all text apart from headings */
     font-family: "Inter", sans-serif;
     font-size: 16px;
+    padding: 0px;
+    margin:0px;
 }
 
 /* HERO STYLING */
@@ -77,46 +79,39 @@ body {
             font-size: 3.125rem;
             color: #FFFFFF;
         }
-
-    /* ********************************** */
-
- /* Small devices (mobile/tablets) */
- @media screen and (min-width: 576px) and (max-width: 768px) {
-    /* TESTING PURPOSES */ 
-    body {
-        background-color: yellow;
-        
-    }
-
-    }
-
-}
-
-/* Medium devices (tablets/laptops) */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    /* TESTING PURPOSES */ 
-    body {
-        background-color: blue;
-    }
-}
-
-/* Large devices (laptops/desktops) */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    /* TESTING PURPOSES */ 
-    body {
-        background-color: green;
-    }
-}
-
-/* Extra large devices (large desktops) */
-@media screen and (min-width: 1200px) {
-    /* TESTING PURPOSES */ 
-    body {
-        background-color: red;
-    }
-}
+                /* Small devices (mobile/tablets) */
+                @media screen and (min-width: 576px) and (max-width: 768px) {
+                    .hero-tag {
+                        font-size: 5rem;
+                    }
+                }
 
 
+                /* Medium devices (tablets/laptops) */
+                @media screen and (min-width: 768px) and (max-width: 992px) {
+                    hero-tag {
+                        font-size: 4.375rem;
+                    }
+                }
+
+                /* Large devices (laptops/desktops) */
+                @media screen and (min-width: 992px) and (max-width: 1200px) {
+                    hero-tag {
+                        font-size: 4.375rem;
+                    }
+
+                }
+
+                /* Extra large devices (large desktops) */
+                @media screen and (min-width: 1200px) {
+                    .hero-tag {
+                        font-size: 5rem;
+                    }
+
+                }
+
+    
+    /* END HERO STYLING */
 
 /* 
 ##########################################################

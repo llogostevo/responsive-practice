@@ -57,7 +57,7 @@ body {
         background-color: lightgrey;
     }
 
-    .navHead-wrapper h1 {
+    h1 {
         font-weight: 900;
         text-transform: capitalize;
     }

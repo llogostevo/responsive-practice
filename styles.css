@@ -53,7 +53,7 @@ body {
     }
 
     #flex-item {
-        margin-left: auto;
+        
     }
 
     /* NAVIGATION HEADER CSS STYLE */
@@ -63,9 +63,9 @@ body {
 
         }
 
-        /* #burger-menu {
-             align-self: auto;
-        } */
+        #burger-menu {
+             margin-left: auto;
+        }
 
         .hero h1{
             color:#FFFFFF;

@@ -271,6 +271,20 @@ body {
     
     /* END HERO STYLING */
 
+
+    /* BLOG CARD SECTION */
+
+    #blog-wrapper h1{
+        font-weight: 700;
+        font-size:1.5rem;
+    }
+
+    #blog-wrapper .card-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
 /* 
 ##########################################################
 ##########################################################

@@ -57,12 +57,12 @@ body {
         .navigation-header-wrapper h1 {
             font-weight: 900;
             text-transform: uppercase;
-            /* align-self: flex-end; */
+            align-self: flex-end;
         }
 
-        /* #burger-menu {
-            align-self: flex-end;
-        } */
+        #burger-menu {
+            align-self: flex-start;
+        }
 
         .hero h1{
             color:#FFFFFF;

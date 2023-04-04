@@ -19,14 +19,16 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    /* default for all other text */
-    font-family: "Libre Caslon Display", serif; 
-}
+
 
 /* 
 ##########################################################
-    Media Queries
+    Mobile View
 ##########################################################
 
 */
+@media screen and (max-width: 576) {
+    body {
+        background-color: green;
+    }
+  }

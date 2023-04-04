@@ -99,6 +99,15 @@ body {
                         margin-left: auto;
                     }
 
+                    nav a { 
+                        font-weight: 500px;
+                        text-decoration: none;
+                    }
+
+                    nav a:hover { 
+                        text-decoration: underline;
+                    }
+
                 }
 
         .burger-line{

@@ -177,7 +177,7 @@ body {
         margin-right: 32px;
      }
 
-        /*  Other devices (tablets and desktops) */
+        /*  Other devices (tablets) */
         @media screen and (min-width: 576px) and (max-width: 992px) {
             .hero-details-wrapper {
                 margin-left: 72px;
@@ -185,7 +185,7 @@ body {
              }
     }
 
-    /*  Other devices (tablets and desktops) */
+    /*  Other devices ( desktops) */
     @media screen and (min-width: 993px) {
         .hero-details-wrapper {
             margin-left: 72px;
@@ -225,6 +225,11 @@ body {
                     hero-tag {
                         font-size: 4.375rem;
                     }
+
+                    .hero-details-wrapper {
+                        margin-left: 72px;
+                        margin-right: 300px;
+                     }
                 }
 
                 /* Large devices (laptops/desktops) */
@@ -233,6 +238,11 @@ body {
                         font-size: 4.375rem;
                     }
 
+                    .hero-details-wrapper {
+                        margin-left: 72px;
+                        margin-right: 620px;
+                     }
+
                 }
 
                 /* Extra large devices (large desktops) */
@@ -240,6 +250,11 @@ body {
                     .hero-tag {
                         font-size: 5rem;
                     }
+
+                    .hero-details-wrapper {
+                        margin-left: 72px;
+                        margin-right: 700px;
+                     }
 
                 }
 

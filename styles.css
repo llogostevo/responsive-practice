@@ -44,12 +44,23 @@ body {
     background-image: url("images/Background.png");
 }
 
+    /* NAVIGATION LAYOUT */
+    .navigation-header-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
     /* NAVIGATION HEADER CSS STYLE */
         .navigation-header-wrapper h1 {
             font-weight: 900;
             text-transform: uppercase;
+            align-self: left;
         }
 
+        #burger-menu {
+            align-self: right;
+        }
+        
         .hero h1{
             color:#FFFFFF;
             font-size: 1.875rem;

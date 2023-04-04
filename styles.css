@@ -277,13 +277,37 @@ body {
     #blog-wrapper h1{
         font-weight: 700;
         font-size:1.5rem;
+        line-height: 1.813rem;
     }
 
+
+    
     #blog-wrapper .card-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
+
+    .card-date {
+        font-size: 0.813rem;
+        font-weight: 500;
+        line-height: 1rem;
+        color:#B7B7B7;
+
+    }
+    .card-link {
+        color: #D9852C;
+        font-size: 0.938;
+        font-weight: 500;
+        line-height: 1.125rem;
+        text-decoration: none;
+    }
+
+    .card-link:hover {
+        text-decoration: underline;
+    }
+    
+    
 
 /* 
 ##########################################################

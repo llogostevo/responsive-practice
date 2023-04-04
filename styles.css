@@ -38,7 +38,7 @@ body {
 /* Mobile View - Default Styles */  
 @media screen and (max-width: 576px) {
     
-    nav h1 {
+    .navHead-wrapper h1 {
         font-weight: 900;
         text-transform: capitalize;
     }

@@ -44,7 +44,7 @@ body {
 .burger-line{
     padding:0px;
     border: 1px;
-    border-radius: 10%;
+    border-radius: 50%;
     height: 2px;
     width: 25px;
     background-color: #FFFFFF;

@@ -55,7 +55,7 @@ body {
         .navigation-header-wrapper h1 {
             font-weight: 900;
             text-transform: uppercase;
-            align-self: stretch;
+            align-self: flex-end;
         }
 
         #burger-menu {

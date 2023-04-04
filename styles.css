@@ -284,6 +284,7 @@ body {
         font-weight: 700;
         font-size:1.5rem;
         line-height: 1.813rem;
+        justify-content: space-around;
     }
 
 
@@ -291,13 +292,13 @@ body {
     #blog-wrapper .card-wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        /* justify-content: space-around; */
     }
 
     .card {
         display:flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
 
     .card image {

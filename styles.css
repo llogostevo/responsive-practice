@@ -47,7 +47,6 @@ body {
     /* NAVIGATION LAYOUT */
     .navigation-header-wrapper {
         display: flex;
-        justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -60,7 +59,7 @@ body {
         }
 
         #burger-menu {
-            /* align-self: flex-end; */
+            align-self: flex-end;
         }
 
         .hero h1{

@@ -1,10 +1,12 @@
 /* 
-TODO: Space out the navigation in desktop view
+TODO: 
+Test the cards before carrying on
+Space out the navigation in desktop view
 Organise the hero text content below the header
-create the blog section
-create a title
-created a card div x3
+
 put the card divs into a flexbox wrapper
+- make hte date and the link positioned static around the changeable text description
+- make a border between the flexbox cards and the page
 have the cards compress wiht space around along columns for mob and rows for tablet and above
 
 */
@@ -297,6 +299,7 @@ body {
 
     .card {
         width: 100%;
+
     }
 
     .card image {
@@ -310,16 +313,27 @@ body {
         font-weight: 500;
         line-height: 1rem;
         color:#B7B7B7;
-        margin-right: 0 auto;
+        text-align: left;
         
     }
+
+    .card-description {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+        color: #000000;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
     .card-link {
         color: #D9852C;
         font-size: 0.938;
         font-weight: 500;
         line-height: 1.125rem;
         text-decoration: none;
-        margin-left: 0 auto;
+        text-align: right;
+
     }
 
     .card-link:hover {

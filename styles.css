@@ -49,6 +49,7 @@ body {
 
         .hero h1{
             color:#FFFFFF;
+            font-size: 1.875rem;
         }
         /* Burger Icon */
         .burger-line{

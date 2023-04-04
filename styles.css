@@ -96,7 +96,7 @@ body {
         .button-link {
             color: #FFFFFF;
             text-decoration: none;
-            border: #FFFFFF;
+            border-color: #FFFFFF;
             background-color: transparent;
             cursor: pointer;
             padding: 20px;
@@ -107,6 +107,7 @@ body {
             color: #000000;
             text-decoration: none;
             background-color: #FFFFFF;
+            border-colour: #000000;
 
         }
 

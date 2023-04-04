@@ -53,7 +53,7 @@ body {
     }
 
     #flex-item {
-        
+        flex-grow: 1;
     }
 
     /* NAVIGATION HEADER CSS STYLE */
@@ -64,7 +64,8 @@ body {
         }
 
         #burger-menu {
-             margin-left: auto;
+             /* margin-left: auto; */
+             flex-grow:0;
         }
 
         .hero h1{

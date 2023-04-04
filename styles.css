@@ -27,72 +27,101 @@ CSS STYLING
 ##########################################################
 */
 
-/* Site Wide Styling */
+/* DEFAULT STYLES FOR ALL DEVICES */
 body {
     background-color: #FFFFFF;
     /* default for all text apart from headings */
     font-family: "Inter", sans-serif;
-
 }
 
+/* Nav Header */
+.navHead-wrapper h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
 
-/* Mobile View - Default Styles */  
-@media screen and (max-width: 576px) {
-    /* TESTING PURPOSES */ 
-    body {
-        background-color: lightgrey;
-    }
+nav ul {
+    display: None;
+}
 
-    .navHead-wrapper h1 {
-        font-weight: 900;
-        text-transform: capitalize;
-    }
+/* Burger Icon */
 
-  }
-
-/* Mobile View - Default Styles */  
-@media screen and (max-width: 576px) {
-    /* TESTING PURPOSES */ 
-    body {
-        background-color: lightgrey;
-    }
-
-    .navHead-wrapper h1 {
-        font-weight: 900;
-        text-transform: uppercase;
-    }
-
-  }
-
-
-  /* Small devices (mobile/tablets) */
-@media screen and (min-width: 576px) and (max-width: 768px) {
+ /* Small devices (mobile/tablets) */
+ @media screen and (min-width: 576px) and (max-width: 768px) {
     /* TESTING PURPOSES */ 
     body {
         background-color: yellow;
     }
-  }
 
-  /* Medium devices (tablets/laptops) */
-  @media screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Medium devices (tablets/laptops) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
     /* TESTING PURPOSES */ 
     body {
         background-color: blue;
     }
-  }
-  
-  /* Large devices (laptops/desktops) */
-  @media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Large devices (laptops/desktops) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     /* TESTING PURPOSES */ 
     body {
         background-color: green;
     }
-  }
-  
-  /* Extra large devices (large desktops) */
-  @media screen and (min-width: 1200px) {
+}
+
+/* Extra large devices (large desktops) */
+@media screen and (min-width: 1200px) {
     /* TESTING PURPOSES */ 
     body {
         background-color: red;
     }
-  }
+}
+
+
+
+/* 
+##########################################################
+##########################################################
+##########################################################
+##########################################################
+##########################################################
+
+##########################################################
+*/
+/* TESTING PURPOSES */
+        /* Small devices (mobile/tablets) */
+        @media screen and (min-width: 576px) and (max-width: 768px) {
+            /* TESTING PURPOSES */ 
+            body {
+                background-color: yellow;
+            }
+
+        }
+
+        /* Medium devices (tablets/laptops) */
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            /* TESTING PURPOSES */ 
+            body {
+                background-color: blue;
+            }
+        }
+        
+        /* Large devices (laptops/desktops) */
+        @media screen and (min-width: 992px) and (max-width: 1200px) {
+            /* TESTING PURPOSES */ 
+            body {
+                background-color: green;
+            }
+        }
+        
+        /* Extra large devices (large desktops) */
+        @media screen and (min-width: 1200px) {
+            /* TESTING PURPOSES */ 
+            body {
+                background-color: red;
+            }
+        }
+
+        

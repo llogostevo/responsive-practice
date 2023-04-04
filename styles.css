@@ -95,12 +95,8 @@ body {
                     }
                     nav {
                         display: block;
-                        flex-grow: 7;
+                        flex-grow:0;
                         margin-left: auto;
-                    }
-
-                    nav ul {
-                        display: flex;
                     }
 
                 }

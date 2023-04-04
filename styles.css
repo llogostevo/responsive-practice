@@ -32,15 +32,58 @@ body {
     background-color: #FFFFFF;
     /* default for all text apart from headings */
     font-family: "Inter", sans-serif;
+
 }
 
 
 /* Mobile View - Default Styles */  
 @media screen and (max-width: 576px) {
-    
+    /* TESTING PURPOSES */ 
+    body {
+        background-color: lightgrey;
+    }
+
     .navHead-wrapper h1 {
         font-weight: 900;
         text-transform: capitalize;
     }
 
+  }
+
+/* Mobile View - Default Styles */  
+@media screen and (max-width: 576px) {
+    /* TESTING PURPOSES */ 
+    body {
+        background-color: lightgrey;
+    }
+
+    .navHead-wrapper h1 {
+        font-weight: 900;
+        text-transform: capitalize;
+    }
+
+  }
+
+  /* Medium devices (tablets/laptops) */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* TESTING PURPOSES */ 
+    body {
+        background-color: blue;
+    }
+  }
+  
+  /* Large devices (laptops/desktops) */
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* TESTING PURPOSES */ 
+    body {
+        background-color: green;
+    }
+  }
+  
+  /* Extra large devices (large desktops) */
+  @media screen and (min-width: 1200px) {
+    /* TESTING PURPOSES */ 
+    body {
+        background-color: red;
+    }
   }

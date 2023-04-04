@@ -223,12 +223,16 @@ body {
             font-weight: 400;
             font-size: 3.125rem;
             color: #FFFFFF;
+            margin-top: 32px;
+            margin-bottom: 32px;
         }
 
         .hero-text {
             font-weight: 500;
             font-size: 1.125rem;
             color: #FFFFFF;
+            margin-top:0px;
+            margin-bottom:32px;
         }
 
                 /* Small devices (mobile/tablets) */

@@ -195,7 +195,7 @@ body {
         }
 
         /* Large devices (laptops/desktops) */
-        @media screen and (min-width: 992px) and (max-width: 1200px) {
+        @media screen and (min-width: 992px){
 
             .hero-details-wrapper {
                 margin-left: 72px;

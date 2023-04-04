@@ -50,14 +50,17 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
 
+    #flex-item {
+        align-self: flex-end;
     }
 
     /* NAVIGATION HEADER CSS STYLE */
         .navigation-header-wrapper h1 {
             font-weight: 900;
             text-transform: uppercase;
-            align-self: flex-end;
+
         }
 
         #burger-menu {

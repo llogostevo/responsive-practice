@@ -60,9 +60,11 @@ body {
             flex-grow: 1;
             margin: 32px;
             padding: 0;
+        }
+
+        .navigation-header-wrapper h1 a{
             text-decoration: none;
             color: #FFFFFF;
-            cursor: pointer;
         }
 
         #burger-menu {

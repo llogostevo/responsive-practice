@@ -1,9 +1,7 @@
 /* 
 TODO: 
 
-Space out the navigation in desktop view
-- put into a flex
-Organise the hero text content below the header
+organise the bacgkround image 
 
 */
 
@@ -84,6 +82,9 @@ body {
 .hero {
     min-height: 750px;
     background-image: url("images/Background.png");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
 }
 
     /* NAVIGATION LAYOUT */

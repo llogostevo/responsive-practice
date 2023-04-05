@@ -1,5 +1,6 @@
 /* 
 TODO: 
+
 Test the cards before carrying on
 Space out the navigation in desktop view
 Organise the hero text content below the header
@@ -294,18 +295,20 @@ body {
     #blog-wrapper .card-wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
     }
 
     .card {
-        width: 80%;
+        /* width: 80%; */
         margin-left: auto;
     }
 
-    .card image {
-        object-fit:cover;
-        width: 100%;
-        height: 352px;
+    .card img {
+        height: auto; 
+        width: auto; 
+        max-width: 300px; 
+        max-height: 300px;
     }
 
     .card-date {

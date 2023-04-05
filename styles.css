@@ -1,7 +1,8 @@
 /* 
 TODO: 
 
-organise the bacgkround image 
+check font sizes of each card and adjust
+adjust so maxium of 4 cards per page when on larger screens
 
 */
 
@@ -83,7 +84,7 @@ body {
     min-height: 750px;
     background-image: url("images/Background.png");
     background-size: cover;
-    
+
     background-repeat: no-repeat;
 }
 
@@ -161,6 +162,11 @@ body {
                     }
 
                 }
+
+                @media screen and (min-width: 844px)  {
+                    nav {
+                        gap:20px;
+                    }
 
         .burger-line{
             padding:0px;

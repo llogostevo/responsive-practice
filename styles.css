@@ -298,8 +298,8 @@ body {
     }
 
     .card {
-        width: 100%;
-
+        width: 80%;
+        margin-left: auto;
     }
 
     .card image {

@@ -364,7 +364,7 @@ body {
         #blog-wrapper .card-wrapper {
             flex-direction: row;
             flex-wrap: wrap;
-            max-width: 1400px;
+            max-width: 1440px;
             justify-content: center;
             align-items: normal;
         }

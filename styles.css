@@ -375,6 +375,10 @@ body {
         
     }
 
+    .card:hover{
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+
      /* Small devices (mobile/tablets) */
      /* @media screen and (min-width: 576px) and (max-width: 768px) {
         #blog-wrapper .card-wrapper {
